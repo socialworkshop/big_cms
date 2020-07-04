@@ -6,6 +6,9 @@ How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:
+* db:migrate
+* mount BigCms::Engine, :at => "/"
+*  //= link big_cms/application.css
 
 ```ruby
 gem 'big_cms'

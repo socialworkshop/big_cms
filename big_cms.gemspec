@@ -7,11 +7,11 @@ require "big_cms/version"
 Gem::Specification.new do |spec|
   spec.name        = "big_cms"
   spec.version     = BigCms::VERSION
-  spec.authors     = [""]
-  spec.email       = [""]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of BigCms."
-  spec.description = "TODO: Description of BigCms."
+  spec.authors     = ["Tony Stubblebine"]
+  spec.email       = ["tony@tonystubblebine.com"]
+  spec.homepage    = "http://tonystubblebine.com"
+  spec.summary     = "A simple CMS engine"
+  spec.description = "Manage layouts, pages, components."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
