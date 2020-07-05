@@ -10,6 +10,10 @@ Add this line to your application's Gemfile:
 * mount BigCms::Engine, :at => "/"
 *  //= link big_cms/application.css
 
+### Install ActionText
+* bin/rails action_text:install
+* Step 3: https://edgeguides.rubyonrails.org/action_text_overview.html
+
 ```ruby
 gem 'big_cms'
 ```

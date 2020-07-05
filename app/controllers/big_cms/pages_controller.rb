@@ -3,6 +3,9 @@ require_dependency "big_cms/application_controller"
 module BigCms
   class PagesController < ApplicationController
     before_action :set_page, only: [:show, :edit, :update, :destroy]
+    
+    # TODO - I hardcoded this for testing because it was using the BigCms layout and the javascripts for the Trix editor were in Application. I'm not quite sure how I want to resolve that long term.
+    layout "application"
 
     # GET /pages
     def index
